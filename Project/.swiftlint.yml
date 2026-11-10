@@ -1,0 +1,18 @@
+included:
+  - FilmRating
+  - FilmRatingTests
+  - FilmRatingUITests
+
+opt_in_rules:
+  - force_unwrapping
+  - sorted_imports
+  - empty_count
+  - first_where
+
+line_length:
+  warning: 120
+  error: 160
+
+identifier_name:
+  excluded:
+    - id
